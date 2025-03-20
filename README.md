@@ -115,7 +115,7 @@ git push -u origin main
 - Go to [Render](https://render.com/)
 - Create a new **Web Service**
 - Connect it to the GitHub repository
-- Set the **Start Command**: `gunicorn app:app`
+- Set the **Start Command**: gunicorn flask_app:app
 - Deploy
 
 ## Conclusion
